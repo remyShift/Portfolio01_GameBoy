@@ -1,20 +1,15 @@
+<script setup lang="ts">
+	import TextBorder from "./TextBorder.vue";
+</script>
+
 <template>
 	<div class="wineBorder">
-		<img src="../../../../../assets/dev.svg" />
+		<TextBorder />
 	</div>
 </template>
 
 
 <style scoped>
-
-img {
-	position: relative;
-	display: block;
-    margin: auto;
-    top: 49%;
-    transform: translateY(-50%);
-}
-
 .wineBorder {
 	z-index: 2;
 	background-color: #5C131D;

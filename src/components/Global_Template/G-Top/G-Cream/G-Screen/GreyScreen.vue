@@ -11,19 +11,19 @@
   font-family: 'Gill Sans';
   color: #747474;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: calc(16 * var(--res));
   position: absolute;
-  top: 2%;
-  right: 1.1%;
+  top: calc(20 * var(--res));
+  right: calc(20 * var(--res));
 }
 .menuPath {
 	font-family: 'Gill Sans';
 	color: #747474;
 	font-weight: bold;
-	font-size: 1rem;
+	font-size: calc(16 * var(--res));
 	position: absolute;
-    top: 2%;
-	left: 1.1%
+    top: calc(20 * var(--res));
+	left: calc(20 * var(--res))
 }
 .backgroundSign {
 	font-family: 'Gill Sans';

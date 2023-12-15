@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import BrownBorder from './G-TopBorder/BrownBorder.vue'
-import CreamBorder from './G-Cream/CreamBorder.vue';
+	import BrownBorder from './G-TopBorder/BrownBorder.vue'
+	import CreamBorder from './G-Cream/CreamBorder.vue';
 </script>
 
 <template>

@@ -49,4 +49,5 @@ table {
 
 html {
 	background-color: black;
+	--res: calc(0.01 * 10vmin)
 }

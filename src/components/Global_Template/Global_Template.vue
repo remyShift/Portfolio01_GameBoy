@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import GTop from './G-Top/GTop.vue'
-import GPivot from './G-Pivot/GPivot.vue'
-import GBottom from './G-Bottom/GBot.vue'
+	import GTop from './G-Top/GTop.vue'
+	import GPivot from './G-Pivot/GPivot.vue'
+	import GBottom from './G-Bottom/GBot.vue'
 </script>
 
 <template>

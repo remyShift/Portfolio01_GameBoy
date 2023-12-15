@@ -1,12 +1,6 @@
-<script lang="ts">
+<script setup lang="ts">
 	import WineBorder from "./G-Wine/WineBorder.vue";
 	import GreyScreen from "./G-Screen/GreyScreen.vue";
-	export default {
-        components: {
-    GreyScreen,
-	WineBorder
-	}
-};
 </script>
 
 <template>
