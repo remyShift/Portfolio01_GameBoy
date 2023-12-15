@@ -26,5 +26,5 @@ if [ -z "$CHANGED" ]; then
 else
     # there are changes
     printf "${SCRIPT_NAME}:\n\t${c1}Changes detected in ${SRC_PATH}${c0}\n\tBuilding distribution files in ${DIST_PATH}\n\tAdding files to the current commit.${c0}\n\n"
-    npm run build && mv $DIST_PATH docs && git add . && exit
+    npm run build && rm -Rf docs && mv $DIST_PATH docs && git add . && exit
 fi
