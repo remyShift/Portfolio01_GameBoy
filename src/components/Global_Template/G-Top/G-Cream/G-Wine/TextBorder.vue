@@ -14,14 +14,16 @@
 }
 
 p {
-  position: relative;
-  font-family: verdana;
+  position: absolute;
+  font-family: 'Gill Sans';
   color: #5C131D;
   font-weight: 900;
   font-style: italic;
-  font-size: calc(20 * var(--res));
+  font-size: calc(30 * var(--res));
   width: fit-content;
-  top: calc(880 * var(--res));
+  top: 96%;
+  left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 span {
@@ -31,7 +33,7 @@ span {
   transform: translate(-50%, -50%);
   width: 100%;
   z-index:-1;
-  -webkit-text-stroke: calc(5 * var(--res)) #C6AF87;
+  -webkit-text-stroke: calc(8 * var(--res)) #C6AF87;
   color: #C6AF87;
 }
 

@@ -7,8 +7,9 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
-  },
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
+	"build-and-commit": "node -e \"const mssg = process.argv[1]; require('child_process').execSync('npm run build && git add . && git commit -m \\\"' + mssg + '\\\"', { stdio:[0, 1, 2] })\""
+},
   "dependencies": {
     "vue": "^3.3.4"
   },
@@ -18,6 +19,7 @@
     "@vitejs/plugin-vue": "^4.4.0",
     "@vue/tsconfig": "^0.4.0",
     "npm-run-all2": "^6.1.1",
+    "pre-commit": "^1.2.2",
     "typescript": "~5.2.0",
     "vite": "^4.4.11",
     "vue-tsc": "^1.8.19"
