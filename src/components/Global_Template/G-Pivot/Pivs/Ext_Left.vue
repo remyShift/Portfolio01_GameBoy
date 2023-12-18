@@ -10,6 +10,7 @@
 	position: absolute;
 	top: 94.5%;
 	border-radius: 3.75rem;
-	z-index: 0;
+	z-index: -1;
+	box-shadow: inset 0 -0.625rem 1.875rem rgba(0, 0, 0, 0.25);
 }
 </style>

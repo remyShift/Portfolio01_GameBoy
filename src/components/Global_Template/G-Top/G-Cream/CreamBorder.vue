@@ -16,7 +16,7 @@
 	border-radius: 4rem;
 	width: 100%;
 	height: 90%;
-	z-index: 1;
+	z-index: 2;
 	display: flex;
 	position: absolute;
 	justify-content: center;

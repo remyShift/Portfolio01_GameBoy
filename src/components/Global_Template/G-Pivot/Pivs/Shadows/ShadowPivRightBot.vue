@@ -1,14 +1,14 @@
 <template>
-	<div class="pivRight"></div>
+	<div class="shadowRightBot"></div>
 </template>
 
 <style scoped>
-.pivRight {
+.shadowRightBot {
 	width: 10%;
 	height: 21.6%;
 	background-color: #F8E9D9;
 	position: absolute;
-	top: 92.9%;
+	top: 120%;
 	left: 80%;
 	z-index: 0;
 }
