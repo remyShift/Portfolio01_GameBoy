@@ -6,7 +6,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "build": "vite build",
-    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
     "vue": "^3.3.4"
