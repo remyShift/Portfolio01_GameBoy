@@ -16,6 +16,7 @@
 	@media screen and (max-width: 700px) {
 		GTop{ 
 			height: 45%;
+			width: 100%
 		}
 	}
 </style>
