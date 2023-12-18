@@ -8,7 +8,7 @@
     height: 15%;
     background-color: #BFB2A4;
 	position: absolute;
-	top: 100.5%;
+	top: 100.8%;
 	z-index: -3;
 	border-radius: 3.75rem;
 }
