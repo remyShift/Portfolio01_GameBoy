@@ -5,9 +5,10 @@
 <style scoped>
 .globalBot {
 	width: 100%;
-    height: 100px;
-    background-color: #fff;
+    height: 100%;
+    background-color: #F8E9D9;
 	position: absolute;
-	top: 200%
+	top: 110%;
+	z-index: -4;
 }
 </style>
