@@ -15,8 +15,8 @@
 <style scoped>
 	@media screen and (max-width: 915px) {
 		GTop{ 
-			height: 45%;
-			width: 100%
+			height: 100%;
+			width: 100%;
 		}
 	}
 </style>
