@@ -13,7 +13,7 @@
 </template>
 
 <style scoped>
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 800px) {
 		GTop{ 
 			height: 45%;
 			width: 100%
