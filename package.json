@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "build": "vite build",
+	"build": "BASE_URL='./' vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
