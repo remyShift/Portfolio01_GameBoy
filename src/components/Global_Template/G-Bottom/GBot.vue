@@ -1,5 +1,13 @@
+<script setup lang="ts">
+	import AB_Button from './ButtonGB/AB_Button.vue';
+	import Lights from './ButtonGB/Light.vue';
+</script>
+
 <template>
-	<div class="globalBot"></div>
+	<div class="globalBot">
+		<AB_Button/>
+		<Lights/>
+	</div>
 </template>
 
 <style scoped>
