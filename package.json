@@ -7,11 +7,7 @@
     "preview": "vite preview",
     "build": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
-    "build:add": "bash ./build-add.sh"
   },
-  "pre-commit": [
-    "build:add"
-  ],
   "dependencies": {
     "vue": "^3.3.4"
   },
