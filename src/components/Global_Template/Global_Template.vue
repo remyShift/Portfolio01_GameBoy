@@ -7,7 +7,7 @@
 <template>
 	<div>
 		<GTop />
-		<GPivot/>
+		<!-- <GPivot/> -->
 		<GBottom />
 	</div>
 </template>
