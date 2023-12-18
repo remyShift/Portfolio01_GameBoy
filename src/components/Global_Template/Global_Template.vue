@@ -7,16 +7,10 @@
 <template>
 	<div>
 		<GTop />
-		<!-- <GPivot/> -->
+		<GPivot/>
 		<GBottom />
 	</div>
 </template>
 
 <style scoped>
-	@media (max-width: 915px) {
-		GTop{ 
-			height: 100%;
-			width: 100%;
-		}
-	}
 </style>

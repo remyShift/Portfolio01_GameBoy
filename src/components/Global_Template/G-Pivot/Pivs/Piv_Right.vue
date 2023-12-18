@@ -4,12 +4,12 @@
 
 <style scoped>
 .pivLeft {
-	width: 56vh;
-	height: 21.35vh;
+	width: 10%;
+	height: 21.6%;
 	background-color: #F8E9D9;
 	position: absolute;
-	top: 93.1%;
-	left: 14%;
+	top: 92.9%;
+	left: 80%;
 	z-index: 0;
 }
 </style>

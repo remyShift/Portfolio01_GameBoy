@@ -1,15 +1,16 @@
 <template>
-	<div class="extLeft"></div>
+	<div class="midPiv"></div>
 </template>
 
 <style scoped>
-.extLeft {
-	width: 19vh;
-	height: 20vh;
+.midPiv {
+	width: 52.18%;
+	height: 20%;
 	background-color: #F8E9D9;
 	position: absolute;
 	top: 94.5%;
-	border-radius: 71px;
+	left: 34.86%;
 	z-index: 0;
+	border-radius: 3.75rem;
 }
 </style>
