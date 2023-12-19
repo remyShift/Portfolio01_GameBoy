@@ -13,7 +13,7 @@
 
 <style scoped>
 .pivRight {
-	width: 10%;
+	width: 8%;
 	height: 21.6%;
 	background-color: #F8E9D9;
 	position: absolute;
