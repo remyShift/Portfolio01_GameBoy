@@ -4,12 +4,14 @@
 
 <style scoped>
 
+
 img {
-	z-index: 0;
-	margin-top: 20%;
-	margin-left: 65%;
-	width: 25%;
-	height: 25%;
-	display: block;
+	width: 55vmin;
+	height: 55vmin;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 15%;
+	left: 62%
 }
 </style>
