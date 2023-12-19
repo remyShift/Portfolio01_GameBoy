@@ -20,7 +20,7 @@
 	padding: 0;
 	position: absolute;
 	top: 17%;
-	left: 90%;
+	right: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;

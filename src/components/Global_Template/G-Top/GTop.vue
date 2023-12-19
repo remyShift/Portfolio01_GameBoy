@@ -4,11 +4,24 @@
 </script>
 
 <template>
-	<div>
+	<div class="GTop">
 		<BrownBorder />
 		<CreamBorder />
 	</div>
 </template>
 
 <style scoped>
+.GTop {
+	width: 100%;
+	height: 90.5vh;
+}
+
+/* @media (max-width: 1000px) {
+	.GTop {
+		width: 100%;
+		height: 50%;
+	}
+} */
+
+
 </style>

@@ -5,7 +5,7 @@
 </script>
 
 <template>
-	<div>
+	<div class="globalTemplate">
 		<GTop />
 		<GPivot/>
 		<GBot />
@@ -13,4 +13,8 @@
 </template>
 
 <style scoped>
+	.globalTemplate {
+		width: 100%;
+		height: 210vh
+	}
 </style>

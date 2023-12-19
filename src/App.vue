@@ -3,7 +3,7 @@
 </script>
 
 <template>
-	<div>
+	<div class="App">
 		<Global_Template />
 	</div>
 </template>

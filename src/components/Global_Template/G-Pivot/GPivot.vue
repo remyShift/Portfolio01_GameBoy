@@ -22,4 +22,5 @@ import ShadowPiv2 from './ShadowsPivot/ShadowPiv2.vue';
 </template>
 
 <style scoped>
+
 </style>
