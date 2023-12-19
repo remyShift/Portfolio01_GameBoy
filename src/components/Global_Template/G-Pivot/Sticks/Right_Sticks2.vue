@@ -1,17 +1,16 @@
 <template>
-	<div class="leftStick"></div>
+	<div class="rightStick2"></div>
 </template>
 
 <style scoped>
-.leftStick {
+.rightStick2 {
 	width: 0.15rem;
 	height: 93%;
 	background-color: #6A6157;
 	position: absolute;
 	top: 7.5%;
-	left: -0.15rem;
+	left: 100%;
 	z-index: 1;
 }
-
 
 </style>

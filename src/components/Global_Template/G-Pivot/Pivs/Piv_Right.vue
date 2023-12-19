@@ -1,5 +1,14 @@
+<script setup lang="ts">
+	import RightStick from '../Sticks/Right_Sticks.vue';
+	import RightStick2 from '../Sticks/Right_Sticks2.vue';
+
+</script>
+
 <template>
-	<div class="pivRight"></div>
+	<div class="pivRight">
+		<RightStick/>
+		<RightStick2/>
+	</div>
 </template>
 
 <style scoped>

@@ -5,11 +5,11 @@
 <style scoped>
 .rightStick {
 	width: 0.15rem;
-	height: 20%;
-	background-color: #6F6458;
+	height: 93%;
+	background-color: #6A6157;
 	position: absolute;
-	top: 94.5%;
-	left: 79.82%;
+	top: 7.5%;
+	left: -0.15rem;
 	z-index: 1;
 }
 

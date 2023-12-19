@@ -11,7 +11,7 @@ img {
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	top: 15%;
-	left: 62%
+	top: 17%;
+	left: 63%
 }
 </style>
