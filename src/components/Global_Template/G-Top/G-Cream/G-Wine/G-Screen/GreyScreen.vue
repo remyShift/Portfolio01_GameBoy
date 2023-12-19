@@ -12,8 +12,9 @@
 
 .greyScreen {
 	position: relative;
-	height: 80%;
-	width: 70%;
+	height: 85%;
+	width: 87%;
+	top: 8%;
 	z-index: 3;
 	background-color: #CFCCCC;	
 	border-radius: 1.563em 1.563rem 1.563rem 1.563rem;

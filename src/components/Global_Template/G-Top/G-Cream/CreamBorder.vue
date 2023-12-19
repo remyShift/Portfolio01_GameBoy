@@ -20,7 +20,7 @@
 	display: flex;
 	position: relative;
 	justify-content: center;
-	top: 3%;
+	top: -27%;
 	box-shadow: 0.5rem 0.5rem 1.2rem black;
 }
 </style>

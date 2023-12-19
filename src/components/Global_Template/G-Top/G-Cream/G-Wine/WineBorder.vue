@@ -20,7 +20,8 @@
 	position: relative;
 	top: 8%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	border-radius: 6rem 6rem 2rem 2rem;
 }
 </style>

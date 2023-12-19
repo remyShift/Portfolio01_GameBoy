@@ -5,12 +5,11 @@
 <style scoped>
 .brownBorder {
 	width: 100%;
-    height: 20%;
+    height: 30%;
     background-color: #726456;
 	z-index: 0;
 	border-radius: 6rem;
-	display: flex;
-	position: absolute;
+	position: relative;
 	top: 0;
 	box-shadow: inset 1px 0.5rem 0.25rem rgba(0, 0, 0, 0.25);;
 }

@@ -14,6 +14,8 @@
 .GTop {
 	width: 100%;
 	height: 90.5vh;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 /* @media (max-width: 1000px) {
