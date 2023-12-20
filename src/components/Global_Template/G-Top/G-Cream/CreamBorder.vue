@@ -5,7 +5,6 @@
 <template>
 	<div class="creamBorder">
 		<WineBorder />
-		<GreyScreen />
 	</div>
 </template>
 
@@ -18,9 +17,10 @@
 	height: 100%;
 	z-index: 2;
 	display: flex;
-	position: relative;
 	justify-content: center;
-	top: -27%;
+	align-items: center;
+	position: relative;
+	top: 4%;
 	box-shadow: 0.5rem 0.5rem 1.2rem black;
 }
 </style>

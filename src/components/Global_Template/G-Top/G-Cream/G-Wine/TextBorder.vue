@@ -10,11 +10,12 @@
 .Text {
 	width: 50%;
 	height: 5%;
-	top: 9%;
-	position: relative;
 	display: flex;
 	justify-content: center;
 	z-index: 2;
+	padding-top: calc(15 * var(--res));
+	padding-bottom: calc(10 * var(--res));
+
 }
 
 p {

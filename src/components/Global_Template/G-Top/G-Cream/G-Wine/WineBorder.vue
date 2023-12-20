@@ -15,12 +15,12 @@
 .wineBorder {
 	z-index: 2;
 	background-color: #5C131D;
-	width: 80%;
-	height: 75%;
-	position: relative;
+	width: 85%;
+	height: 80%;
 	top: 8%;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-end;
 	align-items: center;
 	border-radius: 6rem 6rem 2rem 2rem;
 }
