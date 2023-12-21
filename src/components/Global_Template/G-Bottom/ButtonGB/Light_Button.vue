@@ -1,17 +1,23 @@
 <template>
-	<img src="/src/assets/SVG/Button Light.svg">
+	<div class="LightButton">
+		<img src="/src/assets/SVG/Button Light.svg">
+	</div>
 </template>
 
 <style scoped>
 
-img {
-	width: 15vmin;
-	height: 15vmin;
-	z-index: 1;
-	margin: 0;
-	padding: 0;
-	position: absolute;
+.LightButton {
+	width: 100%;
 	display: flex;
-	top: 15%
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+img {
+	width: 20%;
+	height: auto;
+	z-index: 1;
+	padding-top: 5%;
 }
 </style>

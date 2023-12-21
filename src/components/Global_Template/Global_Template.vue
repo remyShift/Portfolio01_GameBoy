@@ -15,6 +15,6 @@
 <style scoped>
 	.globalTemplate {
 		width: 100%;
-		height: 210vh
+		height: 210vh;
 	}
 </style>

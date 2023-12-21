@@ -1,16 +1,24 @@
 <template>
-	<img src="/src/assets/SVG/Button Arrow.svg">
+	<div class="ArrowButtons">
+		<img src="/src/assets/SVG/Button Arrow.svg">
+	</div>
 </template>
 
 <style scoped>
 
 
+.ArrowButtons {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 img {
-	width: 55vmin;
-	height: 55vmin;
-	position: absolute;
-	top: 20%;
-	left: 8%
+	width: 100%;
+	height: auto;
+	padding-bottom: calc(150 * var(--res));
+	padding-left: calc(150* var(--res));
 }
 </style>
 

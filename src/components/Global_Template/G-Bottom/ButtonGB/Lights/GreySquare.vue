@@ -6,8 +6,8 @@
 <style scoped>
 
 .behindgreySquare {
-	width: 3.5vh;
-	height: 3.5vh;
+	width: 3.5dvh;
+	height: 3.5dvh;
 	background-color: #807467;
 	display: flex;
 	align-items: flex-end;
@@ -15,8 +15,8 @@
 }
 
 .greySquare {
-	width: 3.4vh;
-	height: 3.4vh;
+	width: 3.4dvh;
+	height: 3.4dvh;
 	background-color: #B09F8B;
 }
 

@@ -1,14 +1,26 @@
 <template>
-	<img src="/src/assets/SVG/Button SS.svg"/>
+	<div class="SSButtonsSpeakers">
+		<img class="SpeakersImg" src="/src/assets/SVG/Speakers.svg"/>
+		<img class="SSButtonsImg" src="/src/assets/SVG/Button SS.svg"/>
+	</div>
 </template>
 
 <style scoped>
-	img {
-		width: 40vmin;
-		height: auto;
-		z-index: 0;
-		position: absolute;
-		display: flex;
-		top: 85%
-	}
+
+.SSButtonsSpeakers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: calc(30* var(--res));
+}
+
+.SpeakersImg{
+	width: 35%;
+	height: auto;
+	padding-bottom: calc(30* var(--res));
+}
+
+.SSButtonsImg {
+	width: 80%;
+}
 </style>

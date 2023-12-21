@@ -5,26 +5,24 @@
 
 <template>
 	  <div class="Lights">
-		<GreenSquare/>
+		<GreenSquare class="GreenSquare"/>
 		<GreySquare/>
 	  </div>
   </template>
 
   <style scoped>
 
+
+.GreenSquare {
+	margin-bottom: calc(30* var(--res));
+}
 .Lights {
-	width: 9vh;
-	height: 10.5vh;
-	z-index: 0;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 17%;
-	right: 0;
+	width: 5%;
+	height: auto;
 	display: flex;
-	justify-content: space-between;
 	align-items: flex-end;
 	flex-direction: column;
+	padding-top: calc(90* var(--res));
 }
 
 </style>
