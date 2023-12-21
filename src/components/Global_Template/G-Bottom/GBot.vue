@@ -9,26 +9,25 @@
 
 <template>
 	<div class="globalBot">
-		<AB_Button/>
+		<!-- <AB_Button/>
 		<Lights/>
 		<Light_Button/>
 		<Arrow_Button/>
 		<Speakers/>
-		<SS_Button/>
+		<SS_Button/> -->
 	</div>
 </template>
 
 <style scoped>
 .globalBot {
 	width: 100%;
-    height: 110%;
+    height: 50%;
     background-color: #F8E9D9;
-	position: absolute;
-	top: 100%;
 	z-index: -4;
 	display: flex;
-	justify-content: center;
 	overflow: hidden;
+	position: relative;
+	top: -5%
 }
 
 

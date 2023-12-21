@@ -50,7 +50,7 @@
 }
 .backgroundSign {
 	font-family: 'Gill Sans';
-	font-size: 25vw;
+	font-size: 25dvh;
 	letter-spacing: 0;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.25);

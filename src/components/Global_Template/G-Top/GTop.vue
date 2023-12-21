@@ -13,7 +13,7 @@
 <style scoped>
 .GTop {
 	width: 100%;
-	height: 90.5vh;
+	height: 90.5dvh;
 }
 
 /* @media (max-width: 1000px) {
