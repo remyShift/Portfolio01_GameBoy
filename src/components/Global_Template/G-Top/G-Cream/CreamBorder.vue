@@ -23,4 +23,10 @@
 	top: 4%;
 	box-shadow: 0.5rem 0.5rem 1.2rem black;
 }
+
+@media (max-width: 540px) {
+	.creamBorder {
+		border-radius: 1rem;
+	}
+}
 </style>

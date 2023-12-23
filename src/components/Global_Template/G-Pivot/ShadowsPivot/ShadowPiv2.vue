@@ -12,4 +12,13 @@
 	z-index: -3;
 	border-radius: 3.75rem;
 }
+
+@media (max-width: 540px) {
+	.shadowPiv2 {
+		height: 5%;
+		top: 56.5%;
+		border-radius: 0.7rem;
+	}
+}
+
 </style>

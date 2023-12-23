@@ -69,4 +69,26 @@
 	padding-bottom: calc(15 * var(--res));
 }
 
+@media (max-width: 540px) {
+	.topGreyScreen {
+		padding-top: 10px;
+	}
+	.menuPath {
+		padding-left: 15px;
+	}
+
+	.batteryState {
+		padding-right: 15px;
+	}
+
+	.backgroundSign {
+		font-size: 140px;
+		text-shadow: 0 0.1rem 0.4rem #CFCCCC;
+	}
+
+	.avaible {
+		padding-bottom: 12px;
+	}
+}
+
 </style>

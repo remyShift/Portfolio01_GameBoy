@@ -14,4 +14,10 @@
 		-webkit-box-shadow: inset  0 -20px 10px -10px rgba(0, 0, 0, 0.25);
 		margin-bottom: calc(20 * var(--res));
 }
+
+@media (max-width: 540px) {
+	.extRight {
+		border-radius: 0 0.7rem 0.7rem 0;
+	}
+}
 </style>

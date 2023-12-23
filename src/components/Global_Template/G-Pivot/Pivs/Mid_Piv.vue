@@ -4,7 +4,7 @@
 
 <style scoped>
 .midPiv {
-	width: 43.5%;
+	width: 44.4%;
 	height: 70%;
 	background-color: #F8E9D9;
 	z-index: 0;

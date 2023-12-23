@@ -7,8 +7,8 @@
 <style scoped>
 
 .behindgreenSquare {
-	width: 3.5dvh;
-	height: 3.5dvh;
+	width: 100%;
+	height: 10%;
 	background-color: #0B9D1A;
 	box-shadow: -0.7rem 0 2rem rgba(16, 249, 11, 1);
 	display: flex;
@@ -17,8 +17,8 @@
 }
 
 .greenSquare {
-	width: 3.4dvh;
-	height: 3.4dvh;
+	width: 95.5%;
+	height: 98.5%;
 	background-color: #10F90B;
 }
 

@@ -4,7 +4,7 @@
 
 <style scoped>
 .rightStick {
-	width: 0.15rem;
+	width: 0.15%;
 	height: 93%;
 	background-color: transparent;
 	z-index: 1;

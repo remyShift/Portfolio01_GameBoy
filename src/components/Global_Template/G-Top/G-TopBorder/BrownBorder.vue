@@ -12,4 +12,11 @@
 	position: absolute;
 	box-shadow: inset 1px 0.5rem 0.25rem rgba(0, 0, 0, 0.25);;
 }
+
+@media (max-width: 540px) {
+	.brownBorder {
+		border-radius: 1rem;
+	}
+}
+
 </style>

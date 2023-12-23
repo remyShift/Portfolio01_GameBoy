@@ -39,4 +39,10 @@ span {
 	-webkit-text-stroke: calc(8 * var(--res)) #C6AF87;
 	color: #C6AF87;
 }
+
+@media (max-width: 540px) {
+	.Text {
+		padding-bottom: 7px;
+	}
+}
 </style>

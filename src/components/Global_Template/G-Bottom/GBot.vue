@@ -49,5 +49,11 @@
 }
 
 
+@media (max-width: 540px) {
+	.globalBot {
+		top: -3.5%
+	}
+}
+
 
 </style>

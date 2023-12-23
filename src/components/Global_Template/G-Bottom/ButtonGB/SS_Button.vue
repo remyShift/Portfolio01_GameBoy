@@ -23,4 +23,14 @@
 .SSButtonsImg {
 	width: 80%;
 }
+
+@media (max-width: 540px) {
+	.SSButtonsImg {
+		width: 55%;
+	}
+
+	.SpeakersImg {
+		width: 20%;
+	}
+}
 </style>

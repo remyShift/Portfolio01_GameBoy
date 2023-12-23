@@ -20,5 +20,11 @@ img {
 	padding-bottom: calc(150 * var(--res));
 	padding-left: calc(150* var(--res));
 }
+
+@media (max-width: 540px) {
+	img {
+		width: 80%;
+	}
+}
 </style>
 

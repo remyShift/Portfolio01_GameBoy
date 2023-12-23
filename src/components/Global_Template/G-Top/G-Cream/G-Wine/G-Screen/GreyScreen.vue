@@ -21,4 +21,11 @@
 	justify-content: space-between;
 	flex-direction: column;
 }
+
+@media (max-width: 540px) {
+	.greyScreen {
+		width: 94%;
+		box-shadow: inset 0 0 1rem 0.3rem #363636;
+	}
+}
 </style>

@@ -19,4 +19,10 @@ img {
 	padding-bottom: calc(150 * var(--res));
 	padding-right: calc(150* var(--res));
 }
+
+@media (max-width: 540px) {
+	img {
+		width: 100%;
+	}
+}
 </style>
