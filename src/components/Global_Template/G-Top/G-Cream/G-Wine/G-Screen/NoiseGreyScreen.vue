@@ -82,7 +82,7 @@
 	}
 
 	.backgroundSign {
-		font-size: 140px;
+		font-size: calc(300 * var(--res));
 		text-shadow: 0 0.1rem 0.4rem #CFCCCC;
 	}
 

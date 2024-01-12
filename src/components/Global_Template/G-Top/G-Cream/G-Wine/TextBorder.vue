@@ -45,4 +45,10 @@ span {
 		padding-bottom: 7px;
 	}
 }
+
+@media (max-width: 430px) {
+	.Text {
+		padding-bottom: 0;
+	}
+}
 </style>

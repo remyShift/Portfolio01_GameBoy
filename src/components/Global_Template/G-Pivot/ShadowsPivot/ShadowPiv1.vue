@@ -8,16 +8,37 @@
     height: 14.8%;
     background-color: #6A6157;
 	position: absolute;
-	top: 99.3%;
+	top: 101%;
 	z-index: -2;
 	border-radius: 3.75rem;
+}
+
+@media (max-width: 800px) {
+	.shadowPiv1 {
+		height: 15%;
+		border-radius: 3.5rem;
+	}
 }
 
 @media (max-width: 540px) {
 	.shadowPiv1 {
 		height: 5%;
-		top: 56.3%;
+		top: 54.2%;
 		border-radius: 0.7rem;
+	}
+}
+
+@media (max-width: 430px) {
+	.shadowPiv1 {
+		height: 5%;
+		top: 54.45%;
+	}
+}
+
+@media (max-width: 412px) {
+	.shadowPiv1 {
+		height: 5%;
+		top: 54.75%;
 	}
 }
 

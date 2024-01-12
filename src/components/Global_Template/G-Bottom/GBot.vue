@@ -45,13 +45,17 @@
 	align-items: flex-end;
 	overflow: hidden;
 	position: relative;
-	top: -5%
+	top: -6%
 }
 
 
 @media (max-width: 540px) {
 	.globalBot {
-		top: -3.5%
+		top: -1.5%;
+	}
+
+	.AllButtons {
+		height: 100%;
 	}
 }
 

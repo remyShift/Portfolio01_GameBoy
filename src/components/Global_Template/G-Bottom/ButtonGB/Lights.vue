@@ -25,4 +25,20 @@
 	padding-top: calc(90* var(--res));
 }
 
+@media (max-width: 540px) {
+	.Lights {
+		padding-top: calc(30* var(--res));
+	}
+
+	.GreenSquare {
+		margin-bottom: calc(15 * var(--res));
+	}
+}
+
+@media (max-width: 430px) {
+	.Lights {
+		padding-top: calc(120 * var(--res));
+	}
+}
+
 </style>

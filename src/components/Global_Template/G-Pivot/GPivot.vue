@@ -15,33 +15,34 @@ import RightStick2 from './Sticks/Right_Sticks2.vue';
 
 <template>
 	<div class="globalPivot">
-		<Ext_Left class="pivotElement"/>
-		<LeftStick1 class="pivotElement"/>
-		<Piv_Left class="pivotElement"/>
-		<LeftStick2 class="pivotElement"/>
-		<Mid_Piv class="pivotElement"/>
-		<RightStick class="pivotElement"/>
-		<Piv_Right class="pivotElement"/>
-		<RightStick2 class="pivotElement"/>
-		<Ext_Right class="pivotElement"/>
-		<ShadowPiv3 />
-		<ShadowPiv1 />
-		<ShadowPiv2 />
+			<Ext_Left class="pivotElement"/>
+			<LeftStick1 class="pivotElement"/>
+			<Piv_Left class="pivotElement"/>
+			<LeftStick2 class="pivotElement"/>
+			<Mid_Piv class="pivotElement"/>
+			<RightStick class="pivotElement"/>
+			<Piv_Right class="pivotElement"/>
+			<RightStick2 class="pivotElement"/>
+			<Ext_Right class="pivotElement"/>
+			<ShadowPiv3 />
+			<ShadowPiv1 />
+			<ShadowPiv2 />
 	</div>
 </template>
 
 <style scoped>
 	.globalPivot {
 		width: 100%;
-		height: 12%;
+		height: 15%;
 		display: flex;
 		flex-direction: row;
-		align-items: flex-end;
+		align-items: center;
 	}
 
 	@media (max-width: 540px) {
-		.pivotElement {
-			margin-bottom: 0;
-		}
+	.globalPivot {
+		align-items: flex-end;
+	}
 }
+
 </style>

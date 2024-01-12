@@ -27,6 +27,7 @@
 @media (max-width: 540px) {
 	.creamBorder {
 		border-radius: 1rem;
+		top: 3%
 	}
 }
 </style>

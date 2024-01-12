@@ -25,4 +25,11 @@ img {
 		width: 100%;
 	}
 }
+
+@media (max-width: 430px) {
+	img {
+		width: 115%;
+	}
+}
+
 </style>

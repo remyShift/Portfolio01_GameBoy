@@ -14,7 +14,7 @@
 
 <style scoped>
 	.globalTemplate {
-		width: 100vw;
+		width: 100%;
 		height: 210dvh;
 	}
 
@@ -24,7 +24,7 @@
 		}
 
 		.Gtop {
-			height: 52%;
+			height: 51%;
 		}
 
 		.Gpivot {
@@ -32,7 +32,7 @@
 		}
 
 		.Gbot {
-			height: 43%;
+			height: 41.5%;
 		}
 	}
 </style>
